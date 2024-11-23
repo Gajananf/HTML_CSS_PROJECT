@@ -3,46 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helmets</title>
-
-    <style>
-        ul{
-            display: flex;
-            align-items: center;
-            background-color: aqua;
-            
-        }
-
-        li{
-            color: black;
-        }
-        a{
-            text-decoration: none;
-            margin:20px ;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Bats</title>
 </head>
 <body>
-    <div>
-       
-
-        <ul style="  list-style-type: none;">
-            <a href="index.html"><img src="./Logo-removebg-preview (2).png" width="130px" height="80px" alt="logo"></a>
-            <a href="bats.html"><li>Bats</li></a>
-            <a href="#"><li>Bowls</li></a>
-            <a href="helmet.html"><li>Helmets</li></a>
-            <a href="#"><li>About Us</li></a>
-            <a href="#"><li>Contact</li></a>
-        </ul>
+    <div class="navigate">
+        <div class="logo"> 
+            <a href="index.html"><img src="./Logo-removebg-preview (2).png" width="120px" height="70px" alt="logo"></a>
+        </div>
+        <div class="navbar">
+            <ul class="nav">
+                <a href="bats.html"><li>Bats</li></a>
+                <a href="#"><li>Bowls</li></a>
+                <a href="helmet.html"><li>Helmets</li></a>
+                <a href="about.html"><li>About Us</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
     </div>
 
-    <div>
-        <h2>TRENDING ITEMS</h2>
-        <a href="#"><img src="./dsc-punch-helmet-navy-1.jpg" width="400px" height="400px" alt=""></a>
-        <h3>Punch Helmets</h3>
-        <a href="#"><img src="./guard-cricket-helmet-navy-3_2.jpg" width="400px" height="400px" alt=""></a>
-        <h3>Navy Helemts</h3>
-       
+
+    <h2 class="head3">TRENDING ITEMS</h2>
+
+    <div class="bats1">
+        <div class="bat-cards">
+            <a href="#"><img src="./h1.jpg"  alt=""></a>
+        <h3 class="bat-name">Gray Nicolas</h3>
+        <h3 class="bat-price">RS 2499 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        
+        <div class="bat-cards">
+            <a href="#"><img src="./h2.jpg"  alt=""></a>
+        <h3 class="bat-name">Stainless Steel</h3>
+        <h3 class="bat-price">RS 1999 </h3>
+         <button class="Add-btn">ADD to cart</button>
+        </div>
+
+        <div class="bat-cards">
+            <a href="#"><img src="./h3.jpg" alt=""></a>
+        <h3 class="bat-name">Steelbird Hitz</h3>
+        <h3 class="bat-price">RS 1199 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
     </div>
+    
+    <div class="bats2">
+        <div class="bat-cards">
+            <a href="#"><img src="./h4.jpg" alt=""></a>
+        <h3 class="bat-name">DSC Helmet</h3>
+        <h3 class="bat-price">RS 2499 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        <div class="bat-cards">
+            <a href="#"><img src="./h5.jpg" alt=""></a>
+        <h3 class="bat-name">Cosco Helmet</h3>
+        <h3 class="bat-price">RS 2999 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        <div class="bat-cards">
+            <a href="#"><img src="./h6.jpg" alt=""></a>
+        <h3 class="bat-name">Punch Helmet</h3>
+        <h3 class="bat-price">RS 1499 </h3>
+        <a href="#" target="_blank"><button class="Add-btn">ADD to cart</button></a>
+    </div>
+
 </body>
 </html>

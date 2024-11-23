@@ -3,50 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Bats</title>
-
-    <style>
-        ul{
-            display: flex;
-            align-items: center;
-            background-color: aqua;
-            
-        }
-
-        li{
-            color: black;
-        }
-        a{
-            text-decoration: none;
-            margin:20px ;
-        }
-    </style>
 </head>
 <body>
-    <div>
-       
-
-        <ul style="  list-style-type: none;">
-            <a href="index.html"><img src="./Logo-removebg-preview (2).png" width="130px" height="80px" alt="logo"></a>
-            <a href="bats.html"><li>Bats</li></a>
-            <a href="#"><li>Bowls</li></a>
-            <a href="helmet.html"><li>Helmets</li></a>
-            <a href="#"><li>About Us</li></a>
-            <a href="#"><li>Contact</li></a>
-        </ul>
+    <div class="navigate">
+        <div class="logo"> 
+            <a href="index.html"><img src="./Logo-removebg-preview (2).png" width="120px" height="70px" alt="logo"></a>
+        </div>
+        <div class="navbar">
+            <ul class="nav">
+                <a href="bats.html"><li>Bats</li></a>
+                <a href="#"><li>Bowls</li></a>
+                <a href="helmet.html"><li>Helmets</li></a>
+                <a href="about.html"><li>About Us</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
     </div>
 
-    <div>
-        <h2>TRENDING ITEMS</h2>
-        <a href="#"><img src="./Kashmir_bat.jpg" width="400px" height="400px" alt=""></a>
-        <h3>Kashmir Bat</h3>
-        <h3>RS 2999 </h3>
-        <a href="#"><img src="./lava-kashmir-willow-bat-1.jpg" width="400px" height="400px" alt=""></a>
-        <h3>Best Punch Bats</h3>
-        <h3><del>RS2499</del> RS 1999 </h3>
-        <a href="#"><img src="./wildfire-fervor-tennis-cricket-bat_2.jpg" width="400px" height="400px" alt=""></a>
-        <h3>Tennis Special</h3>
-        <h3>RS 999 </h3>
+
+    <h2 class="head3">TRENDING ITEMS</h2>
+
+    <div class="bats1">
+        <div class="bat-cards">
+            <a href="#"><img src="./Kashmir_bat.jpg"  alt=""></a>
+        <h3 class="bat-name">Kashmir Bat</h3>
+        <h3 class="bat-price">RS 2499 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        
+        <div class="bat-cards">
+            <a href="#"><img src="./punch.jpg"  alt=""></a>
+        <h3 class="bat-name">Best Punch Bats</h3>
+        <h3 class="bat-price">RS 1999 </h3>
+         <button class="Add-btn">ADD to cart</button>
+        </div>
+
+        <div class="bat-cards">
+            <a href="#"><img src="./tennis.jpg" alt=""></a>
+        <h3 class="bat-name">Tennis Special</h3>
+        <h3 class="bat-price">RS 1199 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+    </div>
+    
+    <div class="bats2">
+        <div class="bat-cards">
+            <a href="#"><img src="./DSC.jpg" alt=""></a>
+        <h3 class="bat-name">DSC Wooden Bats</h3>
+        <h3 class="bat-price">RS 2999 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        <div class="bat-cards">
+            <a href="#"><img src="./koka1.jpg" alt=""></a>
+        <h3 class="bat-name">Kokabura Bat</h3>
+        <h3 class="bat-price">RS 2999 </h3>
+        <button class="Add-btn">ADD to cart</button>
+        </div>
+        <div class="bat-cards">
+            <a href="#"><img src="./SS_kashmir1.jpeg" alt=""></a>
+        <h3 class="bat-name">SS Kashmir Bat</h3>
+        <h3 class="bat-price">RS 1499 </h3>
+        <a href="#" target="_blank"><button class="Add-btn">ADD to cart</button></a>
     </div>
 
 </body>
