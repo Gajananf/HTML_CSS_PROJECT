@@ -47,6 +47,14 @@
     display: flex;
     margin: 0px 40px 0px 50px;
 }
+.cards_1{
+    display: flex;
+}
+
+.cards_2{
+    display: flex;
+}
+
 .card-items{
     margin-left: 23px;
     width: 150px;
@@ -66,7 +74,7 @@
     padding: 10px 0px 0px 25px;
     
 }
-card-items:hover{
+.card-items:hover{
     box-shadow: 10px 10px 20px rgba(40,167.69,0.6);
     transform: scale(1.1);
 }
@@ -124,7 +132,7 @@ card-items:hover{
     top: 35%;
     font-size: 25px;
     color: aliceblue;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .head2{
@@ -133,7 +141,7 @@ card-items:hover{
     top: 45%;
     font-size: 25px;
     color: aliceblue;
-    margin-left: 230px;
+    margin-left: 130px;
 }
 
 .head3{
@@ -147,23 +155,30 @@ card-items:hover{
 
 .bats1{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 0px 60px 0px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgba(221, 223, 230,0.4);
     
 }
+
+.res_bat{
+    display: flex;
+    margin-left: -21px;
+}
+.res_bat2{
+    display: flex;
+}
 .bats2{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 0px 60px 0px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgba(221, 223, 230,0.4);
 }
 
 .bat-cards{
     margin: 20px;
-    width: 250px;
+    width: 200px;
+    height: 280px;
     border-radius: 10px;
     margin-bottom: 30px;
     border: 10px solid;
@@ -174,19 +189,28 @@ card-items:hover{
 }
 
 .bat-cards img{
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 160px;
     border-radius: 20px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .bat-cards:hover{
     box-shadow: 15px 15px 3px rgba(198, 123, 123, 0.2);
-   
     transition: 1s ease;
 }
 
 .bat-name{
     margin-top: 20px;
+}
+
+.Bat_Add-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 20px 0px 0px 40px;
 }
 
 
@@ -197,8 +221,6 @@ card-items:hover{
     color: white;
     font-size: medium;
     font-weight: bolder;
-    margin: 30px 0px 0px 0px ;
-    margin-left: 70px;
 }
 
 .Add-btn:hover{
@@ -212,23 +234,31 @@ card-items:hover{
 
 .balls1{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 0px 60px 0px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgba(221, 223, 230,0.4);
     
 }
+
 .balls2{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 0px 60px 0px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgba(221, 223, 230,0.4);
+}
+
+.res_balls{
+    display: flex;
+    margin-left: -21px;
+}
+.res_balls2{
+    display: flex;
 }
 
 .ball-cards{
     margin: 20px;
-    width: 250px;
+    width: 200px;
+    height: 280px;
     border-radius: 10px;
     margin-bottom: 30px;
     border: 10px solid;
@@ -239,10 +269,11 @@ card-items:hover{
 }
 
 .ball-cards img{
-    width: 200px;
-    height: 200px;
-   
- 
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+    margin-left: 40px;
+    
 }
 .ball-cards:hover{
     box-shadow: 15px 15px 3px rgba(198, 123, 123, 0.2);
@@ -257,9 +288,12 @@ card-items:hover{
 .ball_imgDiv{
     width: 180px ; 
     background-color: white;
-    margin-left: 30px;
-    padding-right: 20px;
     border-radius: 20px;
+    margin-left: 20px;
+}
+.tenball{
+    padding-left: 10px;
+    width: 170px;
 }
 
 
@@ -286,23 +320,29 @@ card-items:hover{
 
     .helmet1{
         display: flex;
-        margin-left: 60px;
-        margin-right: 60px;
-        padding: 0px 60px 0px 60px;
+        margin-left: 30px;
+        margin-right: 30px;
         background-color: rgba(221, 223, 230,0.4);
-        
     }
     .helmet2{
         display: flex;
-        margin-left: 60px;
-        margin-right: 60px;
-        padding: 0px 60px 0px 60px;
+        margin-left: 30px;
+        margin-right: 30px;
         background-color: rgba(221, 223, 230,0.4);
     }
     
+    .res_helmet{
+        display: flex;
+        margin-left: -21px;
+    }
+    .res_helmet2{
+        display: flex;
+    }
+
     .helmet-cards{
         margin: 20px;
-        width: 250px;
+        width: 200px;
+        height: 280px;
         border-radius: 10px;
         margin-bottom: 30px;
         border: 10px solid;
@@ -313,10 +353,10 @@ card-items:hover{
     }
     
     .helmet-cards img{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 140px;
         border-radius: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
      
     }
     .helmet-cards:hover{
@@ -380,12 +420,103 @@ html{
 
 
 
-@media screen and(min-width:480px)
+@media(max-width:768px)
 {
    .header{
     background-color: #007BFF;
+    padding-bottom: 50px;
    }
+   .nav {
+    display: block;
+   }
+
    .head1{
-    margin-right: 50px; 
-   }
+    position: absolute;
+    margin: 50px;
+    top: 35%;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+.head2{
+    position: absolute;
+    margin: 50px;
+    top: 42%;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 60px;
+}
+.vkback{
+    width: 100%;
+    height: 380px;
+}
+
+.cards{
+    display: block;
+}
+
+.bats1{
+    display: block;
+}
+
+.bats2{
+    display: block;
+}
+
+.res_bat{
+    display: flex;
+    margin-left: -30px;
+}
+.res_bat2{
+    display: flex;
+    margin-left: -30px;
+}
+
+
+.balls1{
+    display: block;
+}
+
+.balls2{
+    display: block;
+}
+
+.res_balls{
+    display: flex;
+    margin-left: -30px;
+}
+.res_balls2{
+    display: flex;
+    margin-left: -30px;
+}
+
+
+.helmet1{
+    display: block;
+}
+
+.helmet2{
+    display: block;
+}
+
+.res_helmet{
+    display: flex;
+    margin-left: -30px;
+}
+.res_helmet2{
+    display: flex;
+    margin-left: -30px;
+}
+.about{
+    display: block;
+}
+.para1{
+    margin-bottom: 50px;
+}
+.about img{
+    width: 730px;
+    height: 380px;
+}
+
 }
